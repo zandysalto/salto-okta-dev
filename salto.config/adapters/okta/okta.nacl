@@ -12,7 +12,7 @@ okta {
       {
         type = "Application"
         criteria = {
-          name = "Cloud_13"
+          name = "Cloud_13*"
         }
       },
       {
