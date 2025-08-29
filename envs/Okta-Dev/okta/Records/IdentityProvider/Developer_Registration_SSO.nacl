@@ -58,6 +58,7 @@ okta.IdentityProvider Developer_Registration_SSO@s {
       matchType = "EMAIL"
     }
     maxClockSkew = 0
+    trustClaims = false
     transformedUsernameMatchingEnabled = false
   }
   type = "OIDC"

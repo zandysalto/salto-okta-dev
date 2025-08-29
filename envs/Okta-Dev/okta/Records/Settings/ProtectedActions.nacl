@@ -1,0 +1,85 @@
+okta.ProtectedActions {
+  maxElapsedAuthTimeSec = 60
+  actionSettings = [
+    {
+      privilegedActionType = "IDENTITY_PROVIDER_CREATION"
+      enabled = true
+      displayName = "Create identity providers"
+    },
+    {
+      privilegedActionType = "IDENTITY_PROVIDER_MODIFICATION"
+      enabled = true
+      displayName = "Modify identity providers"
+    },
+    {
+      privilegedActionType = "BULK_EXPIRE_USER_PASSWORD"
+      enabled = true
+      displayName = "Bulk expire user passwords"
+    },
+    {
+      privilegedActionType = "BULK_RESET_USER_PASSWORD"
+      enabled = true
+      displayName = "Bulk reset user passwords"
+    },
+    {
+      privilegedActionType = "EXPIRE_PASSWORD_ON_SUPER_ADMIN"
+      enabled = true
+      displayName = "Expire passwords for super admins"
+    },
+    {
+      privilegedActionType = "RESET_PASSWORD_ON_SUPER_ADMIN"
+      enabled = true
+      displayName = "Reset passwords for super admins"
+    },
+    {
+      privilegedActionType = "RESET_FACTORS_ON_SUPER_ADMIN"
+      enabled = true
+      displayName = "Reset factors for super admins"
+    },
+    {
+      privilegedActionType = "RESET_AUTHENTICATORS_ON_SUPER_ADMIN"
+      enabled = true
+      displayName = "Reset authenticators for super admins"
+    },
+    {
+      privilegedActionType = "UPDATE_PRIVILEGED_ACTIONS_CONFIG"
+      enabled = false
+      displayName = "Update protected actions settings"
+    },
+    {
+      privilegedActionType = "ASSIGN_UNASSIGN_SUPER_ORG_ADMIN_ROLE"
+      enabled = true
+      displayName = "Assign and revoke super admin role"
+    },
+    {
+      privilegedActionType = "UPDATE_ADMIN_APP_POLICY"
+      enabled = true
+      displayName = "Update Okta admin app sign on policy"
+    },
+    {
+      privilegedActionType = "REACTIVATE_DEACTIVATE_DELETE_AD_LDAP_AGENT"
+      enabled = true
+      displayName = "Reactivate, deactivate, or delete an AD or LDAP agent"
+    },
+    {
+      privilegedActionType = "DISABLE_AD_LDAP_DELAUTH"
+      enabled = true
+      displayName = "Disable delegated authentication for AD or LDAP"
+    },
+    {
+      privilegedActionType = "UPDATE_ANY_AUTH_POLICY"
+      enabled = true
+      displayName = "Update any authentication policy/app sign-on policy"
+    },
+    {
+      privilegedActionType = "UPDATE_GLOBAL_SESSION_POLICY"
+      enabled = true
+      displayName = "Update global session policy/Okta sign-on policy"
+    },
+    {
+      privilegedActionType = "SSWS_TOKEN_CREATION"
+      enabled = true
+      displayName = "Create API Token"
+    },
+  ]
+}

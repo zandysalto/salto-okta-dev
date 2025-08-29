@@ -10,6 +10,12 @@ okta {
     ]
     exclude = [
       {
+        type = "Application"
+        criteria = {
+          name = "Cloud_13"
+        }
+      },
+      {
         type = "ProfileMapping"
       },
     ]

@@ -1,0 +1,10 @@
+okta.Feature Unified_claims_generation_for_Okta_protected_SAML_and_OIDC_custom_app_integrations@ssssbssssss {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Unified claims generation for Okta-protected SAML and OIDC custom app integrations"
+  description = "This feature offers a unified, streamlined experience for managing claims (OIDC) and attribute statements (SAML)."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Unified claims generation for Okta-protected SAML and OIDC custom app integrations"
+}

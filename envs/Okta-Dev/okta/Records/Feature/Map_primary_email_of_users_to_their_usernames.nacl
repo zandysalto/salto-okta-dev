@@ -1,0 +1,10 @@
+okta.Feature Map_primary_email_of_users_to_their_usernames@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Map primary email of users to their usernames"
+  description = "Map the primary emails of Okta-sourced users to their usernames. When a user signs in, their username matches their primary email address. Whenever a user updates their primary email, their username is updated to match it."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Map primary email of users to their usernames"
+}

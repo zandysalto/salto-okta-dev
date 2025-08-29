@@ -1,0 +1,10 @@
+okta.Feature Org2Org_OIDC_Sign_On_Mode@ssbs {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Org2Org OIDC Sign-On Mode"
+  description = "Allows administrators to configure the Org2Org application OIDC sign-on mode with more streamlined configuration when connecting to the Okta IdP. Requires Org2Org Okta IdP feature to also be enabled."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Org2Org OIDC Sign-On Mode"
+}

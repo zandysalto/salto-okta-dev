@@ -1,0 +1,10 @@
+okta.Feature PDF_Export_for_Identity_Governance_Reports@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "PDF Export for Identity Governance Reports"
+  description = "Adds PDF format as option when downloading Identity Governance reports, such as Past Campaign Details"
+  stage = {
+    value = "EA"
+  }
+  _alias = "PDF Export for Identity Governance Reports"
+}

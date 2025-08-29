@@ -1,0 +1,10 @@
+okta.Feature Interactive_reports@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Interactive reports"
+  description = "Enables additional reports in the admin console accessible on the Reports page. When enabled, this feature also updates the behavior of several existing reports to provide usability improvements or redirection to the System Log which contains more information than the original report contained."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Interactive reports"
+}

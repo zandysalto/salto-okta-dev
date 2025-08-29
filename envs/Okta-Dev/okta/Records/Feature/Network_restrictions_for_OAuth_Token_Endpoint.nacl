@@ -1,0 +1,10 @@
+okta.Feature Network_restrictions_for_OAuth_Token_Endpoint@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Network restrictions for OAuth Token Endpoint"
+  description = "Enhance token endpoint security by allowing administrators to specify an allowlisted network zone for each client."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Network restrictions for OAuth Token Endpoint"
+}

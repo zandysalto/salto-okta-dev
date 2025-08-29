@@ -1,0 +1,10 @@
+okta.Feature Okta_Integration_IdP@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Okta Integration IdP"
+  description = "Enables Admins to create Okta Integration IdP."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Okta Integration IdP"
+}

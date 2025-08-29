@@ -1,0 +1,10 @@
+okta.Feature Multiple_Active_IdP_Signing_Certificates@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Multiple Active IdP Signing Certificates"
+  description = "Enables Admins to configure additional signing certificates for SAML IdP."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Multiple Active IdP Signing Certificates"
+}

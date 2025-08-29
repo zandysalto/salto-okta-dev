@@ -1,0 +1,10 @@
+okta.Feature JSON_Web_Encryption_of_OIDC_Tokens@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "JSON Web Encryption of OIDC Tokens"
+  description = "Enables the ability to encrypt OIDC tokens for Okta-protected custom application integrations using JSON web encryption."
+  stage = {
+    value = "EA"
+  }
+  _alias = "JSON Web Encryption of OIDC Tokens"
+}
